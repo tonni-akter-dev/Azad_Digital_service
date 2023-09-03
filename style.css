@@ -75,6 +75,10 @@ nav ul li a {
   display: none;
 }
 @media (max-width: 952px) {
+  .ellipse {
+    margin-top: 20px !important;
+    /* text-align: c; */
+  }
   label.logo {
     font-size: 30px;
     /* padding-left: 50px; */
@@ -239,7 +243,7 @@ nav ul li a {
   margin-bottom: 48px;
 }
 .btn_common_design {
-  width: 140.589px;
+  max-width: 140.589px;
   height: 63.276px;
   flex-shrink: 0;
   border-radius: 33.606px;
@@ -254,55 +258,91 @@ nav ul li a {
   font-weight: 400;
   line-height: normal;
   border: 1px solid #390d9f;
-  margin-right: 14px;
-
+  /* margin-right: 14px; */
+  width: 100%;
+  height: 50px;
 }
 .uae_btn {
   background: #390d9f;
   color: #fff;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   margin-right: 14px;
+  width: 100%;
+  height: 50px;
 }
-
-
-.contact_heading{
+.ellipse {
+  /* background-image: url('./images/Ellipse.png');
+background-repeat: no-repeat;
+background-size: 100%; */
+  width: 100.634px;
+  height: 100.634px;
+  border-radius: 274.634px;
+  background: rgba(123, 85, 210, 0.29);
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 100%;
+}
+.send_text {
+  position: absolute;
+  top: 10px;
+}
+.send {
   color: #000;
-font-family: Nexa-Bold;
-font-size: 53px;
-font-style: normal;
-font-weight: 400;
-line-height: 124.5%; /* 65.985px */
-letter-spacing: -1.06px;
+  font-family: Nexa-Bold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%; /* 65.985px */
+  letter-spacing: -1.06px;
+}
+.contact_heading {
+  color: #000;
+  font-family: Nexa-Bold;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%;
+  /* letter-spacing: -1.06px; */
+}
+.send_right_arrow {
+  width: 59.305px;
+  height: 43.131px;
+  position: absolute;
+  /* right: 180%; */
+  margin-left: 80px;
 }
 
-.email_fields{
+.email_fields {
   margin-bottom: 18px !important;
 }
-.email_input_field{
-  width: 391px !important;
-border-radius: 0px;
-border: 1px solid #000;
-height: 50px;
+.email_input_field {
+  /* max-width: 391px !important; */
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid #000;
+  height: 50px;
 }
-.text_area{
+.text_area {
   display: flex;
-width: 391px;
-height: 162px;
-align-items: center;
-flex-shrink: 0;
-border: 1px solid #000;
+  width: 100%;
+  max-height: 162px;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid #000;
 }
 
-.footer_logo{
+.footer_logo {
   width: 136.164px;
-height: 132.625px;
-flex-shrink: 0;
+  height: 132.625px;
+  flex-shrink: 0;
 }
 
-.f_links{
+.f_links {
   text-decoration: none;
 }
