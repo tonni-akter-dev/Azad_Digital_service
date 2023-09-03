@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+}
+.container{
+    max-width: 1320px !important;
+    margin: auto;
+}
+image{
+  width: 100%;
+}
+nav {
+    background: rgba(0, 153, 3, 0.06);
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+    width: 131.887px;
+    height: 48.259px;
+}
+.navbar_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  /* float: right; */
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+    color: var(--Hero-Try, #0E0E0E);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.contact_btn{
+  width: 170.381px;
+height: 60.532px;
+border-radius: 33.606px;
+background: #6037B0;
+color: #FFF;
+border: 0;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .contact_btn{
+    width: 150px;
+    height: 47px;
+  }
+  
+    .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+
+/* hero part */
+.e_content_text{
+  color: #000;
+font-family: Nexa-Bold;
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero_details{
+  color: #000;
+font-family: NexaRegular;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.own_images{
+  width: 145.035px;
+height: 145.035px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* section product */
+.products{
+  text-align: center;
+}
